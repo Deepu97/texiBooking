@@ -1,0 +1,54 @@
+.cen{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.awsom{
+    display: flex;
+    justify-content: space-around;
+}
+.font1{
+    font-size: 3rem;
+    color: rgba(252,185,0,1);
+}
+.hel{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+}
+.ico{
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-around;
+    color: rgba(252,185,0,1) ;
+}
+.choice{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.payment{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+}
+.margin1{
+    margin-top: 6rem;
+}
+@media(max-width:420px){
+    .font1{
+        font-size: 3rem;
+    }
+    .hel{
+        margin-left: 2rem;  
+    padding: 1rem;
+font-size: 20px; 
+display: flex;
+gap:2rem; }
+.payment{
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+    margin-left: 1rem;
+}
+}

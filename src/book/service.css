@@ -1,0 +1,50 @@
+.flex1{
+    display: inline-block;
+    flex-direction: column;
+    padding: 0.7rem;
+   margin-left: 7rem;
+   margin-top: 4rem;
+}
+.service{
+    width:19rem;
+    mix-blend-mode: darken;
+}
+.roll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roll p{
+    font-size: 22px;
+}
+.btn1{
+    width:8rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: rgb(250, 250, 70);
+    border: none;
+}
+.pera{
+    text-align: center;
+    font-size: 3rem;
+   
+    padding: 1rem;
+}
+.bor{
+    border: 2px solid yellow;
+    width:6rem;
+   margin:auto;
+}
+.color2{
+    background-color: rgb(245, 241, 241);
+   
+    
+}
+@media(max-width:420px){
+    .color2{
+        width:26rem;
+    }
+    .flex1{
+  margin: 3rem;
+    }
+}

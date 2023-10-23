@@ -1,0 +1,32 @@
+.backg{
+    background-image: url("./car.jpg");
+    background-size:cover;
+    
+   
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+   animation: change 5s infinite ease-in-out ;
+    
+}
+@keyframes change{
+    0%{
+        background-image: url("./car.jpg");
+    }
+   40%{
+    background-image: url("./car2.png");
+   }
+  70%{
+    background-image: url("./car4.png");
+  }
+    100%{
+        background-image: url("./car3.png");
+    }
+}
+@media(max-width:475px){
+    .backg{
+        width: 25rem;
+        height: 6rem;
+       margin-left: 0.5rem;
+    }
+}

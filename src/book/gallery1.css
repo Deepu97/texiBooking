@@ -1,0 +1,46 @@
+.gall{
+    margin-top:2rem;
+}
+.gall1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.gall2{
+    text-align: center;
+    position: relative;
+    top:1rem;
+    font-size: 18px;
+}
+.disp{
+  
+    display: inline-block;
+    flex-direction: column;
+    width: 26rem;
+    align-items: center;
+    padding: 5rem;
+}
+.imag{
+    width:19rem;
+}
+.btn2{
+    width:7rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background-color: yellow;
+    border:none;
+}
+.flex4{
+    display: flex;
+    align-items: center;
+    
+}
+.name2{
+    font-size: 16px;
+}
+.ar1{
+   position: relative;
+   left:1rem;
+   color:green;
+   text-decoration: none;
+}

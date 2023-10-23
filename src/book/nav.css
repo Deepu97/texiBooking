@@ -1,0 +1,90 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    
+}
+.nav li{
+    list-style: none;
+    color: rgb(214, 203, 203);
+ 
+}
+.nav a{
+    text-decoration: none;
+    color:rgb(214, 203, 203);
+}
+.navimg{
+    margin-top: 2rem;
+    width:10rem;
+}
+.drop{
+    margin-right:1rem;
+}
+.nav h2{
+    color: white;
+}
+nav{
+    background-color: rgb(104, 101, 101);
+}
+.icon1 {
+    font-size: 40px;
+    color:white;
+    display: flex;
+   
+    
+}
+.icon1 i{
+    padding: 1rem;
+}
+.hello1{
+    background-color: yellow;
+    margin-left:19rem;
+    width:5rem;
+    height: 4.5rem;
+    text-align: center;
+    
+}
+.hello2{
+    background-color: yellow;
+    margin-left: 13rem;
+    position: relative;
+    right: 8rem;
+}
+.del{
+    display: flex;
+    justify-content:space-around;
+margin-top: 2rem;
+   color: white;
+   font-size: 22px;
+}
+@media(max-width:420px){
+    .navimg{
+        width:7rem;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .mov{
+        margin-top: 7rem;
+        position: relative;
+        right:6rem;
+     
+    }
+    .ty{
+        position: relative;
+        right:1rem;
+        padding: 2rem;
+        border-right: 2px solid black;
+    }
+    .nav{
+        position: relative;
+    }
+    .tem{
+        position: relative;
+        top:7rem;
+        right:7rem;
+        border-right: 2px solid black;
+        height: 18rem;
+    }
+   
+}

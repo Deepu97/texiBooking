@@ -1,0 +1,30 @@
+.blue1{
+    background-color: rgb(78, 78, 177);
+    height:15rem;
+    width:100%;
+    text-align: center;
+}
+.blue1 h1{
+    color:white;
+}
+
+.blue1 p{
+    color:whitesmoke;
+    font-size: 20px;
+}
+.trp{
+    display: flex;
+    justify-content: space-evenly;
+}
+.grop{
+    margin-left: 2rem;
+    margin-top: 1rem;
+   
+}
+.neno{
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.neno p{
+    font-size: 20px;
+}
