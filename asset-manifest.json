@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/texiBooking/static/css/main.21c6bf4e.css",
+    "main.js": "/texiBooking/static/js/main.cc77c131.js",
+    "static/js/787.2b7e62db.chunk.js": "/texiBooking/static/js/787.2b7e62db.chunk.js",
+    "static/media/car.jpg": "/texiBooking/static/media/car.cf90dfd8605570ca515f.jpg",
+    "static/media/car3.png": "/texiBooking/static/media/car3.75052a8217d7b46ea7d8.png",
+    "static/media/car4.png": "/texiBooking/static/media/car4.08c5bd3f3a1399e3e313.png",
+    "static/media/car2.png": "/texiBooking/static/media/car2.91bb6e9d3b45da0facd1.png",
+    "static/media/car-rental_bnr-1.webp": "/texiBooking/static/media/car-rental_bnr-1.12730382695a8f5af85f.webp",
+    "index.html": "/texiBooking/index.html",
+    "main.21c6bf4e.css.map": "/texiBooking/static/css/main.21c6bf4e.css.map",
+    "main.cc77c131.js.map": "/texiBooking/static/js/main.cc77c131.js.map",
+    "787.2b7e62db.chunk.js.map": "/texiBooking/static/js/787.2b7e62db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21c6bf4e.css",
+    "static/js/main.cc77c131.js"
+  ]
+}
