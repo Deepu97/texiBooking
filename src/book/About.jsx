@@ -9,7 +9,7 @@ const About=()=>{
         <div style={{textAlign:"center"}}>
             <p style={{fontSize:"32px",textAlign:"center"}}>About Our Service</p>
             <p style={{fontSize:"22px"}}>Welcome To Our Book Taxis About Page <br />
-At Book Taxis, we are dedicated to providing exceptional car rental services to our valued <br /> customers. With 20 years of experience in the industry, we have established ourselves as a trusted and reliable choice for car rentals in Gurgon. <br />
+At Book Taxis, we are dedicated to providing exceptional car rental services to our valued <br /> customers. With 20 years of experience in the industry, we have established ourselves as a trusted <br /> and reliable choice for car rentals in Gurgon. <br />
 
 Our mission is simple: to make your car rental experience convenient, affordable, and  <br />hassle-free. We understand the importance of reliable transportation, whether you’re a <br />traveler exploring new destinations or a local resident in need of a temporary vehicle. Our <br /> goal is to exceed your expectations and ensure that you have a smooth and enjoyable journey. <br /> 
 

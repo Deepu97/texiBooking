@@ -6,7 +6,7 @@ const Taxi=()=>{
        
         <div className='flax'>
         <div className="taxi">
-            <img className="img1" src="./booktaxi.png" alt="logo" />
+            <img className="img1" src="./booktaxi.png" alt="go" />
         </div>
         <div>
             <ul className='nav1'>
