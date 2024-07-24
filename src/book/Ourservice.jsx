@@ -1,6 +1,8 @@
 import {Cardata} from './Cardata';
+import { useNavigate } from 'react-router-dom';
 import './service.css';
 const Ourservice=()=>{
+    const navigate=useNavigate();
     return(
         <>
        <div className='color2'>
@@ -12,7 +14,7 @@ const Ourservice=()=>{
               <div><img className='service' src={value.img} alt="" /></div>
               <div className='roll'>
                     <div><p>{value.name}</p></div>
-                    <button className='btn1'>Book-Now</button>
+                    <button onClick={()=>navigate('/contact')} className='btn1'>Book-Now</button>
                     </div>
                 </div>
               

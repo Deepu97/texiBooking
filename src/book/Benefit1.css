@@ -50,5 +50,21 @@ gap:2rem; }
     display: flex;
     gap: 5px;
     margin-left: 1rem;
+ 
 }
+.awsom{
+    display: flex;
+    margin-top: 1rem;
+    align-items:center;
+    gap:4rem;
+    margin-left: 6rem;
+}
+.ico{
+    display: flex;
+    margin-top: 1rem;
+    align-items:center;
+    gap:3rem;
+    margin-left: 6rem; 
+}
+
 }

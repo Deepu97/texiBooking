@@ -2,7 +2,7 @@
     display: inline-block;
     flex-direction: column;
     padding: 0.7rem;
-   margin-left: 7rem;
+
    margin-top: 4rem;
 }
 .service{
@@ -27,24 +27,18 @@
 .pera{
     text-align: center;
     font-size: 3rem;
-   
-    padding: 1rem;
+   width:100vw;
+   padding: 1rem;
+    
+
 }
 .bor{
     border: 2px solid yellow;
     width:6rem;
-   margin:auto;
+    margin: auto;
 }
 .color2{
     background-color: rgb(245, 241, 241);
-   
+      width:100%;
     
-}
-@media(max-width:420px){
-    .color2{
-        width:26rem;
-    }
-    .flex1{
-  margin: 3rem;
-    }
 }

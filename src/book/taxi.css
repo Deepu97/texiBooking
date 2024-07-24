@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin:0;
+    padding: 0;
     
 }
 .color1{
@@ -7,10 +9,11 @@
   
 }
 .img1{
-    width:10rem;
+   max-width:10rem;
     margin-left: 5rem;
 }
 .flax{
+ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +26,13 @@
 }
 .nav1 li{
     list-style: none;
-    margin: 2rem;
-    
+    margin: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
     opacity: .6;
     border: 2px solid transparent;
 }
+
 .nav1 a{
     text-decoration: none;
     color: black;
@@ -41,7 +44,7 @@
     height: 4rem;
     text-align: center;
     padding-bottom: 1rem;
-    width:9rem;
+   max-width:9rem;
     border-radius: 0.5rem;
     margin-right: 3rem;
     display: flex;
@@ -60,22 +63,30 @@
     border-bottom: 2px solid black;
 
 }
-@media(max-width:420px){
-    .img1{
-        width:6rem;
-        position: relative;
-        right:3rem;
-    }
-    .nav1 li{
-        position: relative;
-        right:22.9rem;
-        font-size: 15px;
-        width:3rem;
-     margin:0.5rem;
+.hello{
+    max-width: 100%;
+}
+@media(max-width:430px){
+   
+    .border1{
+        display: none;
     }
     .flax{
-        width: 4rem;
-
+        max-width: 100%;
     }
-    
+    .taxi{
+        max-width: 100%;
+    }
+    .img1{
+        max-width: 3rem;
+      position: relative;
+      right: 3rem;
+    }
+    .nav1 li{
+        max-width: 2rem;
+        font-size: 12px;
+        position: relative;
+         margin:15px;
+        right:20rem;
+    }
 }

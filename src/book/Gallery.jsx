@@ -1,4 +1,5 @@
 import './gallery1.css';
+import {Link} from 'react-router-dom'
 import {data} from './Gallery2';
 const Gallery=()=>{
     return(
@@ -13,7 +14,7 @@ const Gallery=()=>{
                 <div><img className='imag' src={val.img} alt="" /></div>
                 <div className='flex4'>
                 <div className='name2'>{val.name}</div>
-                <a className='ar1' href="">-click here</a>
+                <Link className='ar1' to="./contact">-click here</Link>
                 </div>
             </div>
         })

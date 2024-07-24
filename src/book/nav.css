@@ -24,7 +24,7 @@
     color: white;
 }
 nav{
-    background-color: rgb(104, 101, 101);
+   
 }
 .icon1 {
     font-size: 40px;
@@ -57,34 +57,43 @@ margin-top: 2rem;
    color: white;
    font-size: 22px;
 }
-@media(max-width:420px){
-    .navimg{
-        width:7rem;
-    }
-    h2{
+.chan{
+   
+    background-color: rgb(104, 101, 101);
+}
+ @media(max-width:430px){
+    .del{
         font-size: 15px;
     }
-    .mov{
-        margin-top: 7rem;
+    .nav{
+        
+        font-size: 15px;
+        
+       
+    }
+      .chan{
+        width: 135vw;
+      }
+    
+    .navimg{
+        width: 5rem;
+    }
+    .nav h2{
+        font-size: 15px;
+    }
+    .mov,.tem,.drop{
+        position: relative;
+        top:4rem;
+        right:5rem;
+        padding: 1rem;
+    }
+    .icon1{
         position: relative;
         right:6rem;
-     
     }
-    .ty{
-        position: relative;
-        right:1rem;
-        padding: 2rem;
-        border-right: 2px solid black;
+    .hello2{
+    position: relative;
+       
     }
-    .nav{
-        position: relative;
-    }
-    .tem{
-        position: relative;
-        top:7rem;
-        right:7rem;
-        border-right: 2px solid black;
-        height: 18rem;
-    }
-   
+  
 }

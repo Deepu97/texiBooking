@@ -3,4 +3,34 @@ background-color: rgb(95, 98, 139);
 width:100%;
 height:14rem;
 text-align: center;
+color: white;
+}
+#dito{
+    font-size:22px;
+    color:yellow;
+    padding-top:1rem;
+}
+#grow1{
+    color:white;
+    font-size:20px;
+}
+.joke{
+text-align: center;
+
+}
+#how{
+    font-size:32px;
+    text-align:center;
+}
+#who{
+    font-size: 22px;
+}
+@media(max-width:430px){
+    .ful{
+        width:135vw;
+    }
+    .joke{
+        text-align: center;
+        width:130vw;
+    }
 }
